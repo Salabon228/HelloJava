@@ -1,0 +1,21 @@
+boolean f = true ^ false; // Истино когда строго одно значение истино     true
+boolean f = false ^ false; // Истино когда строго одно значение истино     false
+
+Сниппеты:
+sout
+System.out.println();
+
+main
+public static void main(String[] args) {
+
+    }
+
+fori
+for (int i = 0; i < ; i++) {
+
+        }
+
+ifn
+if (f == null) {
+
+        }
