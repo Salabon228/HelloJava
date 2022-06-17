@@ -1,0 +1,9 @@
+public class Main {
+    public static void main(String[] args) {
+        String s = "stroka";
+        System.out.println(s.charAt(2));     // charAt() позволяет обратиться к элементу строки
+        s.length();                          // длина строки
+    }
+
+
+}
