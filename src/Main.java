@@ -1,10 +1,12 @@
-
+import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
-        String s = "stroka";
-        System.out.println(s.charAt(2));
-        int d = s.length();
+
+        Scanner iScanner = new Scanner(System.in);
+        System.out.printf("name: ");
+        String name = iScanner.nextLine();
+        System.out.printf("Hello, %s!", name);
+        iScanner.close();
+
     }
-
-
 }
