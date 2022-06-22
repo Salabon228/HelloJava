@@ -83,6 +83,8 @@ System.out.println(min);
             String text = "";
             switch (mounth) {
                 case 1:
+                case 2:
+                case 3:
                     text = "Autumn";
                     break;
     		...
@@ -94,6 +96,55 @@ System.out.println(min);
             iScanner.close();
         }
     }
+
+=========================================Работа с файлами
+
+import java.io.FileWriter;
+import java.io.IOException;
+
+public class Main {
+    public static void main(String[] args) {
+        try (FileWriter fw = new FileWriter("file.txt", false)) {
+            fw.write("line 1");
+            fw.append('\n');
+            fw.append('2');
+            fw.append('\n');
+            fw.write("line 3");
+            fw.flush();
+        } catch (IOException ex) {
+            System.out.println(ex.getMessage());
+        }
+    }
+}
+
+
+        import java.io.*;
+        public class Program {
+            public static void main(String[] args) throws Exception {
+                FileReader fr = new FileReader("file.txt");
+                int c;
+                while ((c = fr.read()) != -1) {
+                    char ch = (char) c;
+                    if (ch == '\n') {
+                        System.out.print(ch);
+                    } else {
+                        System.out.print(ch);
+                    }
+                }
+            } }
+                        import java.io.*;
+
+                        public class Program {
+                            public static void main(String[] args) throws Exception {
+                                BufferedReader br = new BufferedReader(new FileReader("file.txt"));
+                                String str;
+                                while ((str = br.readLine()) != null) {
+                                    System.out.printf("== %s ==\n", str);
+                                }
+                                br.close();
+                            }
+                        }
+
 
 
 

@@ -1,12 +1,8 @@
-import java.util.Scanner;
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
 
-        Scanner iScanner = new Scanner(System.in);
-        System.out.printf("name: ");
-        String name = iScanner.nextLine();
-        System.out.printf("Hello, %s!", name);
-        iScanner.close();
+        String text = Files.ReadFile("input.txt"); // считывает текст из файла
 
+        Files.WriteFile(text); // записывает считанный текст в файл(название файла пока не изменяется)
     }
 }
