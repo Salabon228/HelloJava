@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d66e3893-f7fc-4973-8b47-77fe25dce415" name="Changes" comment="update: add new termins">
-      <change afterPath="$PROJECT_DIR$/cycle.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Files.java" afterDir="false" />
+    <list default="true" id="d66e3893-f7fc-4973-8b47-77fe25dce415" name="Changes" comment="update: add reader and writer">
+      <change afterPath="$PROJECT_DIR$/binFiles.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logirovanie.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lib.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/string.txt" beforeDir="false" afterPath="$PROJECT_DIR$/string.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +45,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "settings.editor.selected.configurable": "File.Encoding",
     "two.files.diff.last.used.file": "C:/Programm/Hello Java/HelloJava/lib.java"
   }
 }]]></component>
@@ -120,7 +120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655785649730</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="update: add reader and writer">
+      <created>1655872130613</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1655872130613</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -142,7 +149,8 @@
     <MESSAGE value="add GetType.txt" />
     <MESSAGE value="add string.txt" />
     <MESSAGE value="update: add new termins" />
-    <option name="LAST_COMMIT_MESSAGE" value="update: add new termins" />
+    <MESSAGE value="update: add reader and writer" />
+    <option name="LAST_COMMIT_MESSAGE" value="update: add reader and writer" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -1,0 +1,36 @@
+
+=========== Логирование ===========
+===== 1 =====
+import java.util.logging.*;
+public class Ex0043 {
+   public static void main(String[] args) {
+       Logger logger = Logger.getLogger(Ex0043.class.getName()); // создаем логгиер и ук. имя класса в скобках
+       logger.setLevel(Level.INFO);
+
+       ConsoleHandler ch = new ConsoleHandler();
+       logger.addHandler(ch);
+
+       SimpleFormatter sFormat = new SimpleFormatter();
+       ch.setFormatter(sFormat);
+       logger.log(Level.WARNING, "Тестовое логирование");
+       logger.info("Тестовое логирование2");
+   }
+}
+
+===== 2 =====XML
+
+import java.util.logging.*;
+public class Ex0043 {
+   public static void main(String[] args) {
+       Logger logger = Logger.getLogger(Ex0043.class.getName());
+       logger.setLevel(Level.INFO);
+       ConsoleHandler ch = new ConsoleHandler();
+       logger.addHandler(ch);
+       //SimpleFormatter sFormat = new SimpleFormatter();
+       XMLFormatter xml = new XMLFormatter();
+       //ch.setFormatter(sFormat);
+       ch.setFormatter(xml);
+       logger.log(Level.WARNING, "Тестовое логирование");
+       logger.info("Тестовое логирование2");
+   }
+}
