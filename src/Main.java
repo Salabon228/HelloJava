@@ -1,15 +1,14 @@
-import java.util.logging.*;
+import java.util.ArrayList;
+
 public class Main {
     public static void main(String[] args) throws Exception {
-
-        Logger logger = Logger.getLogger(Main.class.getName()); // создаем логгиер и ук. имя класса в скобках
-
-        FileHandler fh = new FileHandler("log.txt");
-        logger.addHandler(fh);
-
-        SimpleFormatter sFormat = new SimpleFormatter();
-        fh.setFormatter(sFormat);
-        logger.log(Level.WARNING, "Тестовое логирование");
-        logger.info("Тестовое логирование2");
+        // Logger.Hate();   в отдельном классе описан Логгер
+        ArrayList<Integer> li =  new ArrayList<>();
+        for (int i = 0; i <= 10; i++) {
+           li.add(i);
+        }
+        li.add(3,777);
+        System.out.println(li.remove(3)); // 777
+        System.out.println(li); // [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
     }
 }

@@ -1,4 +1,14 @@
-июн. 25, 2022 7:58:13 AM Main main
+июн. 28, 2022 7:16:40 AM Logger Hate
 WARNING: Тестовое логирование
-июн. 25, 2022 7:58:13 AM Main main
-INFO: Тестовое логирование2
+июн. 28, 2022 7:16:40 AM Logger Hate
+INFO: Тестовое логирование 2
+июн. 28, 2022 7:23:12 AM Logger Hate
+WARNING: Тестовое логирование
+июн. 28, 2022 7:23:12 AM Logger Hate
+INFO: Тестовое логирование 2
+июн. 28, 2022 7:23:56 AM Logger Hate
+WARNING: Тестовое логирование
+июн. 28, 2022 7:23:56 AM Logger Hate
+INFO: Тестовое логирование 2
+июн. 28, 2022 7:23:56 AM Logger Hate
+WARNING: ВАРНИНГ
