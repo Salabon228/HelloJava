@@ -1,0 +1,23 @@
+ArrayList<Integer> list1 = new ArrayList<Integer>();
+ArrayList<Integer> list2 = new ArrayList<>();
+ArrayList<Integer> list3 = new ArrayList<>(10);
+ArrayList<Integer> list4 = new ArrayList<>(list3);
+
+
+
+add(args) Ц добавл€ет элемент в список ( в т.ч. на нужную позицию)
+
+get(pos) Ц возвращает элемент из списка по указанной позиции
+
+indexOf(item) Ц первое вхождение или -1
+
+lastIndexOf(item) Ц последнее вхождение или -1
+
+remove(pos) Ц удаление элемента на указанной позиции и его возвращение
+
+set(int pos, T item) Ц помещает значение item элементу, который находитс€
+на позиции pos
+
+void sort(Comparator) Ц сортирует набор данных по правилу
+
+subList(int start, int end) Ц получение набора данных от позиции start до end
