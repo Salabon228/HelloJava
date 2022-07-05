@@ -1,12 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d66e3893-f7fc-4973-8b47-77fe25dce415" name="Changes" comment="update: add Collections.txt and iterator.txt">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Logger.java" afterDir="false" />
+    <list default="true" id="d66e3893-f7fc-4973-8b47-77fe25dce415" name="Changes" comment="update: add Logger class">
+      <change afterPath="$PROJECT_DIR$/OOP.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lection 4 start OOP/Ex001/PointMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lection 4 start OOP/Ex002/Point2D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lection 4 start OOP/Ex002/Program.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lection 4 start OOP/Ex003/Point2D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lection 4 start OOP/Ex003/Program.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lection 4 start OOP/Ex004/Program.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lection 4 start OOP/Ex004/Robot1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lection 4 start OOP/Ex004/Robot2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lection 4 start OOP/Ex004/Robot3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lection 4 start OOP/Ex005/Magician.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lection 4 start OOP/Ex005/Priest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lection 4 start OOP/Ex005/Program.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lection 4 start OOP/Ex006/BaseHero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lection 4 start OOP/Ex006/Magician.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lection 4 start OOP/Ex006/Priest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lection 4 start OOP/Ex006/Program.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lection 4 start OOP/Ex006/Teams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lection 4 start OOP/Ex007/BaseHero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lection 4 start OOP/Ex007/Magician.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lection 4 start OOP/Ex007/Priest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lection 4 start OOP/Ex007/Program.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Task4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/log.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,7 +60,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Programm/Hello Java/HelloJava/lib.java",
+    "last_opened_file_path": "C:/Users/1/Downloads/Java лекториум/4 лекция исходники",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -141,7 +160,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656388075964</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="update: add Logger class">
+      <created>1656392320120</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1656392320120</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -165,7 +191,8 @@
     <MESSAGE value="update: add new termins" />
     <MESSAGE value="update: add reader and writer" />
     <MESSAGE value="update: add Collections.txt and iterator.txt" />
-    <option name="LAST_COMMIT_MESSAGE" value="update: add Collections.txt and iterator.txt" />
+    <MESSAGE value="update: add Logger class" />
+    <option name="LAST_COMMIT_MESSAGE" value="update: add Logger class" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
