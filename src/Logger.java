@@ -1,3 +1,4 @@
+package src;
 import java.util.logging.FileHandler;
 import java.util.logging.Level;
 import java.util.logging.SimpleFormatter;
@@ -5,15 +6,15 @@ import java.util.logging.SimpleFormatter;
 public class Logger {
     public static void Hate() throws Exception {
 
-        java.util.logging.Logger logger = java.util.logging.Logger.getLogger(Main.class.getName()); // создаем логгер и ук. имя класса в скобках
+        java.util.logging.Logger logger = java.util.logging.Logger.getLogger(Main.class.getName()); // пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅ. пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 
         FileHandler fh = new FileHandler("log.txt", true);
         logger.addHandler(fh);
 
         SimpleFormatter sFormat = new SimpleFormatter();
         fh.setFormatter(sFormat);
-        logger.log(Level.WARNING, "Тестовое логирование");
-        logger.info("Тестовое логирование 2");
-        logger.warning("ВАРНИНГ");
+        logger.log(Level.WARNING, "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ");
+        logger.info("пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ 2");
+        logger.warning("пїЅпїЅпїЅпїЅпїЅпїЅпїЅ");
     }
 }
