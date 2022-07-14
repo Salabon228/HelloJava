@@ -10,8 +10,6 @@ public class Magician {
     private int maxHp;
 
     private int mana;
-    private int maxMana;
-
     static {
         Magician.number = 0;
         Magician.r = new Random();
@@ -22,7 +20,6 @@ public class Magician {
         this.hp = hp;
         this.maxHp = hp;
         this.mana = mana;
-        this.maxMana = mana;
     }
 
     public Magician() {

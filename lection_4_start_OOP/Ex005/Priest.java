@@ -13,8 +13,6 @@ public class Priest {
     private int maxHp;
 
     private int elixir;
-    private int maxElixir;
-
     static {
         Priest.number = 0;
         Priest.r = new Random();
@@ -25,7 +23,6 @@ public class Priest {
         this.hp = hp;
         this.maxHp = hp;
         this.elixir = elixir;
-        this.maxElixir = elixir;
     }
 
     public Priest() {
